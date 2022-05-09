@@ -4,7 +4,7 @@ Add-AzAccount
 #Select the correct subscription
 Get-AzSubscription -SubscriptionName "AzIntConsumption" | Select-AzSubscription
 
-terraform init
+terraform init -upgrade
 
 terraform plan
 
