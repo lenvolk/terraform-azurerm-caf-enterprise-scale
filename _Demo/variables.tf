@@ -8,5 +8,5 @@ variable "root_name" {
 }
 variable "primary_location" {
   type    = string
-  default = "eastus"
+  default = "westeurope"
 }
